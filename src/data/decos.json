@@ -1,0 +1,74 @@
+[
+  {
+    "id"          : 1,
+    "title"       : "Deco 1",
+    "thumb"       : "featured-1.jpg",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+    "timeleft"    : 2,
+    "watchers"    : 12,
+    "price"       : 123
+  },
+  {
+    "id"          : 2,
+    "title"       : "Deco 2",
+    "thumb"       : "featured-2.jpg",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+    "timeleft"    : 2,
+    "watchers"    : 3,
+    "price"       : 43
+  },
+  {
+    "id"          : 3,
+    "title"       : "Deco 3",
+    "thumb"       : "featured-3.jpg",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+    "timeleft"    : 2,
+    "watchers"    : 12,
+    "price"       : 39
+  },
+  {
+    "id"          : 4,
+    "title"       : "Deco 4",
+    "thumb"       : "featured-4.jpg",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+    "timeleft"    : 2,
+    "watchers"    : 12,
+    "price"       : 72
+  },
+  {
+    "id"          : 5,
+    "title"       : "Deco 5",
+    "thumb"       : "featured-5.jpg",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+    "timeleft"    : 2,
+    "watchers"    : 12,
+    "price"       : 84
+  },
+  {
+    "id"          : 6,
+    "title"       : "Deco 6",
+    "thumb"       : "featured-6.jpg",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+    "timeleft"    : 2,
+    "watchers"    : 12,
+    "price"       : 99
+  },
+  {
+    "id"          : 7,
+    "title"       : "Deco 7",
+    "thumb"       : "featured-7.jpg",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+    "timeleft"    : 2,
+    "watchers"    : 12,
+    "price"       : 99
+  },
+  {
+    "id"          : 8,
+    "title"       : "Deco 8",
+    "thumb"       : "featured-8.jpg",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+    "timeleft"    : 2,
+    "watchers"    : 12,
+    "price"       : 99
+  }
+]

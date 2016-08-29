@@ -1,0 +1,21 @@
+
+<div class="category-box-main"  ng-controller="CategoriesController as ctrl">
+    <div ng-repeat="product in ctrl.categories">
+        <!-- col-md-3 -->
+
+        <div class="col-md-3 col-sm-3 col-xs-6 main-product" >
+            <div class="category-box product-box" >
+                <span class="sale">+786</span>
+                <a title="{{ product.title }}" href="#">
+                    <img src="images/{{ product.thumb }}" alt="cat-img"/>
+                    <span>{{ product.name }}</span>
+                    <div class="cat-hover"></div>
+                </a>
+            </div>
+        </div><!-- col-md-3 /- -->
+
+    </div>
+</div><!-- category box main /- -->
+
+
+

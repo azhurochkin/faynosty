@@ -1,0 +1,71 @@
+/*<!--CSS for the Cart. Customize anything you damn well please.
+Use Firebug or Webkit's Element Inspector to get a more
+indepth idea of what simpleCart Generates.
+-->*/
+.cartHeaders,.totalRow{display:none;}
+
+.simpleCart_items {
+    padding: 8px;
+    border-collapse: collapse;
+    /*border: 1px solid #999;*/
+    text-align: center;
+}
+.itemContainer{
+    clear:both;
+    width:229px;
+    padding:11px 0;
+    font-size:11px;
+}
+.itemImage{
+    float:left;
+    width:60px;
+}
+.itemName{
+    float:left;
+    width:85px;
+}
+.itemPrice{
+    float:left;
+    width:85px;
+    color:#418932;
+}
+.itemQuantity{
+    float:left;
+    width:33px;
+    margin-top:-12px;
+    vertical-align:middle;
+}
+.itemQuantity input{
+    width:20px;
+    border:1px solid #ccc;
+    padding:3px 2px;
+}
+.itemTotal{
+    float:left;
+    color:#c23f26;
+    margin-top:-6px
+}
+#sidebar{
+    float:right;
+    margin-right:5px;
+    width:248px;
+    margin-top:-70px;
+
+}
+#sidebar a{
+    font-size:11px;
+    color:#000;
+}
+#sidebar a.simpleCart_checkout,
+.checkoutEmptyLinks a.simpleCart_checkout{
+    display:-moz-inline-box;
+    display:inline-block;
+    width:87px;
+    height:25px;
+    background:url(images/btnCheckout.gif);
+    overflow:hidden;
+    margin-left:100px;
+    vertical-align:middle;
+    text-indent:-9999px;
+    font-size:0;
+}
