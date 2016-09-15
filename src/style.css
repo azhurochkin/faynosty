@@ -451,11 +451,11 @@ a {
 	}
 	
 	.logo-block svg { 
-		width: 56px;
-		height: 56px;
+		width: 70px;
+		height: 70px;
 		fill: #b3aa9b;
 		position: relative;
-		top: 17px;
+		top: 1px;
 	}
 	
 	.logo-block span {
@@ -513,7 +513,7 @@ a {
 		padding-left: 5px;
 		padding-top: 9px;
 		padding-bottom: 9px;
-		text-align: right;	
+		text-align: right;
 	}
 	
 	.cart-link svg {
