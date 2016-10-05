@@ -133,30 +133,30 @@ simpleCart.currency({
 <!-- Header Section -->
 <header id="header" class="header">
     <!-- top-header -->
-   <!-- <div class="top-header">
-        &lt;!&ndash; container &ndash;&gt;
-        <div class="container">
-            <ul class="top-social col-md-6 col-sm-4">
-                <li><a title="Facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a title="Twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a title="Google" href="#"><i class="fa fa-google-plus"></i></a></li>
-                <li><a title="Pinterest" href="#"><i class="fa fa-pinterest-p"></i></a></li>
-            </ul>
-            <div class="col-md-6 ow-right-padding col-sm-8">
-                &lt;!&ndash;
-                <ul class="top-menu">
-                    <li><a title="My whishlist" href="#">My whishlist</a></li>
-                    <li><a title="CheckOut" href="#">CheckOut</a></li>
-                </ul>
-                <ul class="top-menu">
-                    <li><a title="Login" href="07_login_register.html">Login</a></li>
-                    <li><a title="Register" href="05_register.html">Register</a></li>
-                </ul>
-                &ndash;&gt;
-            </div>
-        </div>
-        &lt;!&ndash; container /- &ndash;&gt;
-    </div>-->
+    <!-- <div class="top-header">
+         &lt;!&ndash; container &ndash;&gt;
+         <div class="container">
+             <ul class="top-social col-md-6 col-sm-4">
+                 <li><a title="Facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                 <li><a title="Twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                 <li><a title="Google" href="#"><i class="fa fa-google-plus"></i></a></li>
+                 <li><a title="Pinterest" href="#"><i class="fa fa-pinterest-p"></i></a></li>
+             </ul>
+             <div class="col-md-6 ow-right-padding col-sm-8">
+                 &lt;!&ndash;
+                 <ul class="top-menu">
+                     <li><a title="My whishlist" href="#">My whishlist</a></li>
+                     <li><a title="CheckOut" href="#">CheckOut</a></li>
+                 </ul>
+                 <ul class="top-menu">
+                     <li><a title="Login" href="07_login_register.html">Login</a></li>
+                     <li><a title="Register" href="05_register.html">Register</a></li>
+                 </ul>
+                 &ndash;&gt;
+             </div>
+         </div>
+         &lt;!&ndash; container /- &ndash;&gt;
+     </div>-->
     <!-- top-header /- -->
 
     <!-- logo-search-block -->
@@ -164,18 +164,18 @@ simpleCart.currency({
         <!-- container -->
         <div class="container">
             <div class="row">
-                <div class="col-md-4 ow-left-padding col-sm-4 col-xs-1">
-                    <!--
+              <!--  <div class="col-md-4 ow-left-padding col-sm-4 col-xs-4">
+                    &lt;!&ndash;
                     <div class="input-group">
                         <span class="input-group-btn">
                             <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
                         </span>
                         <input type="text" class="form-control" placeholder="Search products">
-                    </div> <!-- /input-group -->
+                    </div> &lt;!&ndash; /input-group &ndash;&gt;
                 </div>
 
-
-                <div class="col-md-4 logo-block col-sm-4 col-xs-4">
+-->
+                <div class="col-md-8 logo-block col-sm-8 col-xs-8">
                     <a title="Logo" href="index.html">
                         <svg xmlns="http://www.w3.org/2000/svg" width="58" height="74">
                             <title>background</title>
@@ -203,7 +203,7 @@ simpleCart.currency({
                         файностi
                     </a>
                 </div>
-                <div class="col-md-4 col-sm-4 col-xs-7  ow-right-padding">
+                <div class="col-md-4 col-sm-4 col-xs-4  ow-right-padding">
                     <div class="cart-link">
                         <svg width="16px" height="15px" viewBox="0 0 533.334 533.335">
                             <g>
@@ -253,10 +253,11 @@ simpleCart.currency({
     <!-- menu-block -->
     <div class="menu-block">
         <!-- container -->
-        <div class="container">
-            <nav class="navbar navbar-default navbar-static-top">
+        <nav class="navbar navbar-default navbar-static-top" role = "navigation">
+            <div class="container-fluid">
+
                 <div class="navbar-header">
-                    <a title="Logo" href="index.html" class="logo"><img src="images/logo.png" alt="logo"></a>
+                    <a  title="Logo" href="index.html" class="logo"><img src="images/logo.png" alt="logo"></a>
                     <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse"
                             class="navbar-toggle collapsed" type="button">
                         <span class="sr-only">Toggle navigation</span>
@@ -268,144 +269,31 @@ simpleCart.currency({
                 <div class="navbar-collapse collapse" id="navbar">
                     <ul class="nav navbar-nav">
                         <li class=""><a title="Home" href="index.html">головна</a></li>
-                        <!--<li class="dropdown active">
-                            <a title="Shop" href="02_categories.html" class="dropdown-toggle" data-toggle="dropdown">Shop</a>
-                            <ul class="dropdown-menu">
-                                <li><a title="Product" href="03_product.html">product</a></li>
-                                <li class="dropdown-header">Tops</li>
-                                <li><a title="Single product" href="04_single_product.html">single product</a></li>
-                                <li><a title="Single product" href="04_single_product-2.html">single product 2</a></li>
-                                <li><a title="Shopping cart" href="06_shopping_cart.html">shopping cart</a></li>
-                            </ul>
-                        </li>-->
-                        <!--<a title="Categories" href="02_categories.html">-->
-                        <li class="dropdown " >
-                            <a title="Categories" href="02_categories.html"
-                               class="dropdown-toggle" data-toggle="dropdown" role="button">каталог <span class="caret"></span></a>
-
+                        <li class="dropdown ">
+                            <a href="02_categories.html" сlass="dropdown-toggle" data-toggle="dropdown">
+                                каталог
                                 <div role="tooltip" class="tooltip top">
                                     <div class="tooltip-arrow"></div>
                                     <div class="tooltip-inner">New</div>
                                 </div>
-
+                            </a>
 
                             <ul class="dropdown-menu mega-dropdown-menu row">
-                                <li class="col-md-3 col-sm-6">
-                                    <ul>
-                                        <!--<li class="dropdown-header"><a title="Categories" href="02_categories.html">каталог</a>
-                                        </li>-->
-                                        <li><a title="Сумки" href="03_productBags.html">сумки</a></li>
-                                        <li><a title="Декор" href="03_productDeco.html">декор</a></li>
-                                        <li><a title="Iграшки" href="03_productToys.html">іграшки</a></li>
-
-                                        <!--
-                                        <li><a title="Newsletter Form" href="#">Newsletter Form</a></li>
-                                        <li><a title="Four columns" href="#">Four columns</a></li>
-                                        <li class="divider"></li>
-
-                                        <li><a title="Good Typography" href="#">Good Typography</a></li>
-                                        -->
-                                    </ul>
-                                </li>
-                                <!--
-                                <li class="col-md-3 col-sm-6">
-                                    <ul>
-                                        <li class="dropdown-header">New in Stores</li>
-                                        <li id="mega-dropdown-slider" class="carousel slide mega-dropdown-slider" data-ride="carousel">
-                                          <ul class="carousel-inner">
-                                            <li class="item active">
-                                                <a title="Product 1" href="#"><img src="images/mega-menu/new-collection.png" class="img-responsive" alt="product 1"></a>
-                                                <h4><small>Summer dress floral prints</small></h4>
-                                                <button class="btn btn-primary" type="button">49,99 €</button> <button  class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>
-                                            </li><!-- End Item ->
-                                            <li class="item">
-                                                <a title="Product 2" href="#"><img src="images/mega-menu/new-collection-2.png" class="img-responsive" alt="product 2"></a>
-                                                <h4><small>Gold sandals with shiny touch</small></h4>
-                                                <button class="btn btn-primary" type="button">9,99 €</button> <button  class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>
-                                            </li><!-- End Item ->
-                                            <li class="item">
-                                                <a title="Product 3" href="#"><img src="images/mega-menu/new-collection-3.png" class="img-responsive" alt="product 3"></a>
-                                                <h4><small>Denin jacket stamped</small></h4>
-                                                <button class="btn btn-primary" type="button">49,99 €</button> <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>
-                                            </li><!-- End Item ->
-                                          </ul><!-- End Carousel Inner ->
-                                        </li><!-- /.carousel ->
-                                        <li class="divider"></li>
-                                        <li><a title="View all Collection" href="#">View all Collection <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-                                    </ul>
-                                </li>
-                                -->
-                                <!--<li class="col-md-3 col-sm-6">
-                                    <ul>
-                                        <li class="dropdown-header">Dresses</li>
-                                        <li><a title="Unique Features" href="#">Unique Features</a></li>
-                                        <li><a title="Image Responsive" href="#">Image Responsive</a></li>
-                                        <li><a title="Auto Carousel" href="#">Auto Carousel</a></li>
-                                        <li><a title="Newsletter Form" href="#">Newsletter Form</a></li>
-                                        <li><a title="Four columns" href="#">Four columns</a></li>
-                                        <li class="divider"></li>
-                                        <li class="dropdown-header">Tops</li>
-                                        <li><a title="Good Typography" href="#">Good Typography</a></li>
-                                    </ul>
-                                </li>
-                                <li class="col-md-3 col-sm-6">
-                                    <ul>
-                                        <li class="dropdown-header">Jackets</li>
-                                        <li><a title="Easy to customize" href="#">Easy to customize</a></li>
-                                        <li><a  title="Glyphicons" href="#">Glyphicons</a></li>
-                                        <li><a  title="Pull Right Elements" href="#">Pull Right Elements</a></li>
-                                        <li class="divider"></li>
-                                        <li class="dropdown-header">Pants</li>
-                                        <li><a title="Coloured Headers" href="#">Coloured Headers</a></li>
-                                        <li><a title="Primary Buttons & Default" href="#">Primary Buttons & Default</a></li>
-                                        <li><a title="Calls to action" href="#">Calls to action</a></li>
-                                    </ul>
-                                </li>
-                                <li class="col-md-3 col-sm-6">
-                                    <ul>
-                                        <li class="dropdown-header">Accessories</li>
-                                        <li><a title="Default Navbar" href="#">Default Navbar</a></li>
-                                        <li><a title="Lovely Fonts" href="#">Lovely Fonts</a></li>
-                                        <li><a title="Responsive Dropdown" href="#">Responsive Dropdown </a></li>
-                                        <li class="divider"></li>
-                                        <li class="dropdown-header">Pants</li>
-                                        <li><a title="Coloured Headers" href="#">Coloured Headers</a></li>
-                                        <li><a title="Primary Buttons & Default" href="#">Primary Buttons & Default</a></li>
-                                        <li><a title="Calls to action" href="#">Calls to action</a></li>
-                                        &lt;!&ndash;li class="dropdown-header">Newsletter</li>
-                                        <form class="form" role="form">
-                                          <div class="form-group">
-                                            <label class="sr-only" for="email">Email address</label>
-                                            <input type="email" class="form-control" id="email" placeholder="Enter email" />
-                                          </div>
-                                          <button type="submit" class="btn btn-primary btn-block">Sign in</button>
-                                        </form&ndash;&gt;
-                                    </ul>
-                                </li>-->
+                                <li><a title="Сумки" href="03_productBags.html">сумки</a></li>
+                                <li><a title="Декор" href="03_productDeco.html">декор</a></li>
+                                <li><a title="Iграшки" href="03_productToys.html">іграшки</a></li>
                             </ul>
                         </li>
-
-                        <!--
-                        <li><a title="Look Book" href="look-book.html">Look Book</a></li>
-                        <li><a title="Blog" href="12_blog.html">Blog</a></li>
-                        <li><a title="About Us" href="about.html">About Us</a></li>
-                        -->
-                        <!--<li class="dropdown">
-                            <a title="pages" href="about.html" class="dropdown-toggle" data-toggle="dropdown">pages</a>
-                            <ul class="dropdown-menu">
-                                <li><a title="Shortcodes" href="shortcodes.html">Shortcodes</a></li>
-                                <li><a title="404" href="404.html">404</a></li>
-                            </ul>
-                        </li>-->
                         <li><a title="Contact us" href="14_contact.html">контакти</a></li>
 
                         <li><a title="Кошик" href="06_shopping_cart.html">кошик</a></li>
                     </ul>
                 </div>
                 <!--/.nav-collapse -->
-            </nav>
-        </div>
-        <!-- container /- -->
+            </div>
+            <!-- container /- -->
+        </nav>
+
     </div>
     <!-- menu-block /- -->
 </header>
@@ -425,14 +313,14 @@ simpleCart.currency({
         </div>
     </div>
     <div class="page-header ow-bottom-padding categories">
-        <h3>каталог</h3>
+      <!--  <h3>каталог</h3>-->
         <!--<p>410+ Categories</p>-->
     </div><!-- Section Header /- -->
 </div><!-- container /- -->
 <!-- Page Breadcrumb /- -->
 
 <!-- Category Section -->
-<div id="category-section" class="category-section categories" >
+<div id="category-section" class="category-section categories">
     <!-- container -->
     <div class="container">
 
@@ -592,52 +480,52 @@ simpleCart.currency({
                     </a>
                 </div>
             </div>-->
-            <!-- col-md-3 /- -->
-            <!-- col-md-3 -->
+        <!-- col-md-3 /- -->
+        <!-- col-md-3 -->
 
-<!--            <div class="col-md-3 col-sm-3 col-xs-6">
-                <div class="category-box">
-                    <a title="Women Accessories" href="#">
-                        <img src="images/category/cat-img-2.jpg" alt="cat-img"/>
-                        <span>Women Accessories</span>
-                        <div class="cat-hover"></div>
-                    </a>
-                </div>
-            </div>&lt;!&ndash; col-md-3 /- &ndash;&gt;
-            &lt;!&ndash; col-md-3 &ndash;&gt;
-            <div class="col-md-3 col-sm-3 col-xs-6">
-                <div class="category-box">
-                    <a title="Women Accessories" href="#">
-                        <img src="images/category/cat-img-3.jpg" alt="cat-img"/>
-                        <span>Women Accessories</span>
-                        <div class="cat-hover"></div>
-                    </a>
-                </div>
-            </div>&lt;!&ndash; col-md-3 /- &ndash;&gt;
-            &lt;!&ndash; col-md-3 &ndash;&gt;
-            <div class="col-md-3 col-sm-3 col-xs-6">
-                <div class="category-box">
-                    <a title="Women Accessories" href="#">
-                        <img src="images/category/cat-img-4.jpg" alt="cat-img"/>
-                        <span>Women Accessories</span>
-                        <div class="cat-hover"></div>
-                    </a>
-                </div>
-            </div>-->
-            <!-- col-md-3 /- -->
-
-
-        </div><!-- category box main /- -->
+        <!--            <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="category-box">
+                            <a title="Women Accessories" href="#">
+                                <img src="images/category/cat-img-2.jpg" alt="cat-img"/>
+                                <span>Women Accessories</span>
+                                <div class="cat-hover"></div>
+                            </a>
+                        </div>
+                    </div>&lt;!&ndash; col-md-3 /- &ndash;&gt;
+                    &lt;!&ndash; col-md-3 &ndash;&gt;
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="category-box">
+                            <a title="Women Accessories" href="#">
+                                <img src="images/category/cat-img-3.jpg" alt="cat-img"/>
+                                <span>Women Accessories</span>
+                                <div class="cat-hover"></div>
+                            </a>
+                        </div>
+                    </div>&lt;!&ndash; col-md-3 /- &ndash;&gt;
+                    &lt;!&ndash; col-md-3 &ndash;&gt;
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="category-box">
+                            <a title="Women Accessories" href="#">
+                                <img src="images/category/cat-img-4.jpg" alt="cat-img"/>
+                                <span>Women Accessories</span>
+                                <div class="cat-hover"></div>
+                            </a>
+                        </div>
+                    </div>-->
+        <!-- col-md-3 /- -->
 
 
-        <div class="drop-line bottom-shadow"></div>
-        <div class="loading">
-            <a title="Click here for more products" href="#">
-                <img src="images/load.gif" alt="loading icon"/>
-                <p>Більше...</p>
-            </a>
-        </div>
-    </div><!-- container /- -->
+    </div><!-- category box main /- -->
+
+
+    <div class="drop-line bottom-shadow"></div>
+    <div class="loading">
+        <a title="Click here for more products" href="#">
+            <img src="images/load.gif" alt="loading icon"/>
+            <p>Більше...</p>
+        </a>
+    </div>
+</div><!-- container /- -->
 </div><!-- Category Section /- -->
 
 <!-- Footer Section -->
