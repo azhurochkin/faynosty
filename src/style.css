@@ -582,7 +582,7 @@ a {
 	}
 		
 	.menu-block .navbar .nav li.dropdown > a:hover:before {
-		bottom: 10px;
+		bottom: -10px;
 	}
 	
 	.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
